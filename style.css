@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  /* background-color: #faf9f6; */
+background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 2%, #ffffff 100%);
+
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+h2{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+p{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 1.25rem;
+}
+
+.tile-image{
+  height: 200px;
+  width: 300px;
+}
+
+.left>.tile-image{
+  float: left;
+  margin: 25px;
+}
+
+.right>.tile-image{
+  float: left;
+  margin: 25px;
+}
+
+.left{
+  float: left;
+  width: 580px;
+}
+
+.right{
+  float: right;
+  width: 580px;
+}
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+@media (max-width: 900px)
+{
+  h1{
+    font-size: 2rem;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .logo{
+    height: 50px;
+    width: 250px;
+  }
+
+  .left{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
